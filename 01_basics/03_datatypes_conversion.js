@@ -35,7 +35,7 @@ let stringSomeNumber = String(someNumber)
 // console.log(typeof stringSomeNumber)
 
 
-// ********************* Operations *********************
+// *********************  *********************
 
 let value = 3;
 let negvalue = -value;
