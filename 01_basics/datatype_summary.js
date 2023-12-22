@@ -34,4 +34,34 @@ const myFunction = function() {
 }
 
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+
+// ++++++++++++++++++++++ Heap and Stack Memory +++++++++++++++++++++++
+
+// Stack (Primitive values), Heap (Non-Primitive Values)
+
+// Stack Memory
+let myName = "Shailendra Jain"
+
+let nickName = myName
+
+nickName = "Shailu"
+
+// console.log(myName)
+// console.log(nickName)
+
+// Heap Memory
+
+let objOne = {
+    name : 'Shailendra',
+    age : '28',
+    email : 'shailu@gmail.com'
+}
+
+let objTwo = objOne
+
+objOne.email = 'shailendra@gmail.com'
+
+console.log(objOne);
+console.log(objTwo);
